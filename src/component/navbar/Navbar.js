@@ -18,10 +18,12 @@ function Navbar() {
                 </div>
             </div>
             <div className='a_tag'>
-                <a href='!' style={{textDecoration: 'none'}}>Wedding</a>
-                <a href='!' style={{textDecoration: 'none'}}>Birthday</a>
-                <a href='!' style={{textDecoration: 'none'}}>Festivals</a>
-                <a href='!' style={{textDecoration: 'none'}}>opening ceremony</a>
+                <ul>
+                <li href='!' style={{backgroundColor:"#E85E63",color:"white"}}> Wedding </li>
+                <li href='!'> Birthday </li>
+                <li href='!'> Festivals </li>
+                <li href='!'> opening ceremony </li>
+                </ul>
             </div>
         </div>
     )
